@@ -1,0 +1,108 @@
+.bg-container {
+  background-color: whitesmoke;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.content-container {
+  padding: 40px;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .content-container {
+    width: 50%;
+  }
+}
+
+.search-container {
+  height: 28px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #dbdbdb;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.search-input-field {
+  background-color: #fafafa;
+  border: none;
+  outline: none;
+  width: 88%;
+  height: 100%;
+  padding: 0px 15px;
+}
+
+.search-icon-container {
+  background-color: #dbdbdb;
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-icon-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.search-icon {
+  width: 10px;
+  height: 10px;
+  color: #989898;
+}
+
+/* SUCCESS VIEW CSS */
+
+ul {
+  padding: 0px;
+  list-style-type: none;
+}
+
+/* LOADER VIEW CSS */
+
+.loader-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FAILURE VIEW CSS */
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.failure-alert-icon {
+  width: 50%;
+  color: #4094ef;
+}
+
+.failure-desc {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  color: #262626;
+}
+
+.failure-retry-button {
+  background-color: #4094ef;
+  font-family: Roboto;
+  font-size: 14px;
+  color: #ffffff;
+  width: 102px;
+  height: 32px;
+  border: none;
+  border-radius: 4px;
+  padding: 8px, 24px, 8px, 24px;
+  outline: none;
+  cursor: pointer;
+}
